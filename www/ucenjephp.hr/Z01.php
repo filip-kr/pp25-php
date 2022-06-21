@@ -13,17 +13,19 @@
     <!-- END zaglavlje -->
 
     <!-- START tijelo -->
-    <div class="callout">
-        <div class="gornji-tekst">
-            <h5>ZADATAK 1: U okvirima trenutnog prijeloma
-                stranice (isti dizajn kao i ostale stranice) ispišite
-                HELLO WORLD!
-            </h5>
+    <main>
+        <div class="callout">
+            <div class="gornji-tekst">
+                <h5>ZADATAK 1: U okvirima trenutnog prijeloma
+                    stranice (isti dizajn kao i ostale stranice) ispišite
+                    HELLO WORLD!
+                </h5>
+            </div>
         </div>
-    </div>
-    <div class="callout">
-        <?php echo 'HELLO WORLD!'; ?>
-    </div>
+        <div class="callout">
+            <?php echo 'HELLO WORLD!'; ?>
+        </div>
+    </main>
     <!-- END tijelo -->
 
     <!-- START podnožje -->

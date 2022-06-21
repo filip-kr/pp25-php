@@ -13,14 +13,16 @@
   <!-- END zaglavlje -->
 
   <!-- START tijelo -->
-  <div class="callout">
-    <div class="gornji-tekst">
-      <h5>Unesite parametar 'ime' u URL</h5>
+  <main>
+    <div class="callout">
+      <div class="gornji-tekst">
+        <h5>Unesite parametar 'ime' u URL</h5>
+      </div>
     </div>
-  </div>
-  <div class="callout">
-    'ime' glasi <?php echo $_GET['ime']; ?>
-  </div>
+    <div class="callout">
+      'ime' glasi <?php echo $_GET['ime']; ?>
+    </div>
+  </main>
   <!-- END tijelo -->
 
   <!-- START podnožje -->

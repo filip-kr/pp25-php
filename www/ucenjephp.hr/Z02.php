@@ -13,17 +13,19 @@
     <!-- END zaglavlje -->
 
     <!-- START tijelo -->
-    <div class="callout">
-        <div class="gornji-tekst">
-            <h5>ZADATAK 2: Stranica ispisuje
-                Shaquille O'Neal
-                koristeći echo funkciju s jednostrukim navodnicima
-            </h5>
+    <main>
+        <div class="callout">
+            <div class="gornji-tekst">
+                <h5>ZADATAK 2: Stranica ispisuje
+                    Shaquille O'Neal
+                    koristeći echo funkciju s jednostrukim navodnicima
+                </h5>
+            </div>
         </div>
-    </div>
-    <div class="callout">
-        <?php echo 'Shaquille O\'Neal'; ?>
-    </div>
+        <div class="callout">
+            <?php echo 'Shaquille O\'Neal'; ?>
+        </div>
+    </main>
     <!-- END tijelo -->
 
     <!-- START podnožje -->

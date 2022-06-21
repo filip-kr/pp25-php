@@ -13,15 +13,17 @@
   <!-- END zaglavlje -->
 
   <!-- START tijelo -->
-  <div class="callout">
-    <div class="gornji-tekst">
-      <h5>Unesite parametar 'ime' i 'boja' (CSS atribut) u URL</h5>
+  <main>
+    <div class="callout">
+      <div class="gornji-tekst">
+        <h5>Unesite parametar 'ime' i 'boja' (CSS atribut) u URL</h5>
+      </div>
     </div>
-  </div>
-  <div class="callout">
-    Ime glasi <p style="color: <?php echo $_GET['boja']; ?>"><?php echo $_GET['ime']; ?></p>
-    Kao što vidite, njegova boja je na engleskom <i><?php echo $_GET['boja']; ?></i>.
-  </div>
+    <div class="callout">
+      Ime glasi <p style="color: <?php echo $_GET['boja']; ?>"><?php echo $_GET['ime']; ?></p>
+      Kao što vidite, njegova boja je na engleskom <i><?php echo $_GET['boja']; ?></i>.
+    </div>
+  </main>
   <!-- END tijelo -->
 
   <!-- START podnožje -->

@@ -13,14 +13,16 @@
   <!-- END zaglavlje -->
 
   <!-- START tijelo -->
-  <div class="callout">
-    <div class="gornji-tekst">
-      <h5>Dobrodošli!</h5>
+  <main>
+    <div class="callout">
+      <div class="gornji-tekst">
+        <h5>Dobrodošli!</h5>
+      </div>
     </div>
-  </div>
-  <div class="callout">
-    Poslužite se izbornikom na vrhu i pogledajte kako marljivo vježbam PHP.
-  </div>
+    <div class="callout">
+      Poslužite se izbornikom na vrhu i pogledajte kako marljivo vježbam PHP.
+    </div>
+  </main>
   <!-- END tijelo -->
 
   <!-- START podnožje -->
