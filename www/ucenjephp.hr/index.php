@@ -24,8 +24,11 @@
   <!-- END tijelo -->
 
   <!-- START podnožje -->
-  <?php require_once 'podnozje.php'; ?>
+  <footer>
+    <?php require_once 'podnozje.php'; ?>
+  </footer>
   <!-- END podnožje -->
+
 
   <!-- JavaScript -->
   <?php require_once 'js.php'; ?>

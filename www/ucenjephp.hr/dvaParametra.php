@@ -15,7 +15,7 @@
   <!-- START tijelo -->
   <div class="callout">
     <div class="gornji-tekst">
-      <h5>Unesite parametar 'ime' i 'boja' (CSS atribut) u URL.</h5>
+      <h5>Unesite parametar 'ime' i 'boja' (CSS atribut) u URL</h5>
     </div>
   </div>
   <div class="callout">
@@ -25,7 +25,9 @@
   <!-- END tijelo -->
 
   <!-- START podnožje -->
-  <?php require_once 'podnozje.php'; ?>
+  <footer>
+    <?php require_once 'podnozje.php'; ?>
+  </footer>
   <!-- END podnožje -->
 
   <!-- JavaScript -->
