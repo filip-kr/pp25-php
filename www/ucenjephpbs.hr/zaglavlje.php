@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Početna</a>
+                    <a class="nav-link active" href="index.php">Početna</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown">
@@ -15,8 +15,8 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="Z01.php">Zadatak 1</a></li>
-                        <li><a class="dropdown-item" href="#">Zadatak 2</a></li>
-                        <li><a class="dropdown-item" href="#">Zadatak 3</a></li>
+                        <li><a class="dropdown-item" href="Z02.php">Zadatak 2</a></li>
+                        <li><a class="dropdown-item" href="Z03.php">Zadatak 3</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
