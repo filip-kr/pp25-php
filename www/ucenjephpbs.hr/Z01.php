@@ -16,12 +16,13 @@
         <!-- START tijelo -->
         <div class="container-fluid border bg-warning">
             <p>
-            <h3>Dobrodošli!</h3>
+            <h3>ZADATAK 1: U okvirima trenutnog prijeloma
+                stranice (isti dizajn kao i ostale stranice) ispišite
+                HELLO WORLD</h3>
             </p>
         </div>
         <div class="container-fluid border bg-light">
-            <p>Bootstrap izdanje stranice ucenjephp.hr</p>
-            <p>Kao i prije, poslužite se izbornikom i svjedočite mojoj marljivosti u učenju PHP-a</p>
+            <p><?php echo 'HELLO WORLD!'; ?></p>
         </div>
         <!-- END tijelo -->
     </main>

@@ -16,12 +16,11 @@
         <!-- START tijelo -->
         <div class="container-fluid border bg-warning">
             <p>
-            <h3>Dobrodošli!</h3>
+            <h3>Unesite parametar 'ime' u URL</h3>
             </p>
         </div>
         <div class="container-fluid border bg-light">
-            <p>Bootstrap izdanje stranice ucenjephp.hr</p>
-            <p>Kao i prije, poslužite se izbornikom i svjedočite mojoj marljivosti u učenju PHP-a</p>
+            <p>'ime' glasi <?php echo $_GET['ime']; ?></p>
         </div>
         <!-- END tijelo -->
     </main>

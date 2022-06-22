@@ -14,16 +14,16 @@
                         Zadaci
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Zadatak 1</a></li>
+                        <li><a class="dropdown-item" href="Z01.php">Zadatak 1</a></li>
                         <li><a class="dropdown-item" href="#">Zadatak 2</a></li>
                         <li><a class="dropdown-item" href="#">Zadatak 3</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Jedan parametar</a>
+                    <a class="nav-link" href="jedanParametar.php">Jedan parametar</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Dva parametra</a>
+                    <a class="nav-link" href="dvaParametra.php">Dva parametra</a>
                 </li>
             </ul>
         </div>
