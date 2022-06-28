@@ -22,7 +22,7 @@
                 </h5>
             </div>
         </div>
-        <div class="callout">
+        <div class="callout" id="izlaz">
             <?php echo 'Shaquille O\'Neal'; ?>
         </div>
     </main>

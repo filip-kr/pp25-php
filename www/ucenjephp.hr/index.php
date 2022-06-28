@@ -19,7 +19,7 @@
         <h5>Dobrodošli!</h5>
       </div>
     </div>
-    <div class="callout">
+    <div class="callout" id="izlaz">
       Poslužite se izbornikom na vrhu i pogledajte kako marljivo vježbam PHP.
     </div>
   </main>

@@ -1,8 +1,12 @@
-.footer{
+.footer {
     position: absolute;
     bottom: 0;
 }
 
-.gornji-tekst{
+.gornji-tekst {
     padding-top: 20px;
+}
+
+#izlaz {
+    background-color: lightgrey;
 }

@@ -19,7 +19,7 @@
         <h5>Unesite parametar 'ime' u URL</h5>
       </div>
     </div>
-    <div class="callout">
+    <div class="callout" id="izlaz">
       'ime' glasi <?php echo $_GET['ime']; ?>
     </div>
   </main>
