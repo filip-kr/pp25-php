@@ -38,7 +38,7 @@
                     <input type="text" name="y" value="<?= $y ?>">
                 </label>
 
-                <input type="submit" class="succes button" value="Izračunaj"><br>
+                <input type="submit" class="success button" value="Izračunaj"><br>
 
                 <?php
 
