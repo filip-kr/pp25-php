@@ -8,6 +8,7 @@
                 <ul class="menu vertical">
                     <li><a target="_blank" href="osnovephp/varijabla.php">Varijabla</a></li>
                     <li><a target="_blank" href="osnovephp/operatori.php">Operatori</a></li>
+                    <li><a target="_blank" href="nizovipetlje/nizovi.php">Nizovi</a></li>
                     <li><a target="_blank" href="osnovephp/uvjetnoGrananjeIf.php">IF</a></li>
                     <li><a target="_blank" href="osnovephp/uvjetnoGrananjeSwitch.php">SWITCH</a></li>
                 </ul>
