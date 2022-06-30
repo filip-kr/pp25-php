@@ -20,6 +20,7 @@
                     <li><a target="_blank" href="dvaParametra.php">Dva parametra</a></li>
                     <li><a target="_blank" href="prviProgram.php">Prvi program</a></li>
                     <li><a target="_blank" href="vizualniProgram.php">Vizualni program</a></li>
+                    <li><a target="_blank" href="vizualniProgram2.php">Vizualni program 2</a></li>
                     <li><a target="_blank" href="Z01.php">Z01</a></li>
                     <li><a target="_blank" href="Z02.php">Z02</a></li>
                     <li><a target="_blank" href="Z03.php">Z03</a></li>
