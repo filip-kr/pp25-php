@@ -54,7 +54,7 @@
             $j = ?
             <form>
                 <label>
-                    <input type="text" name="rez" method="get">
+                    <input type="text" name="rez" method="get" required>
                     <input type="hidden" name="i" value=<?= $i ?>>
                     <input type="hidden" name="j" value=<?= $j ?>>
                     <input type="submit" class="button success" value="Provjeri">
