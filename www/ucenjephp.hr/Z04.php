@@ -16,7 +16,8 @@
     <main>
         <div class="callout">
             <div class="gornji-tekst">
-                <h5>Stranica prima 4 GET parametara (a, b, c, d) i ispisuje
+                <h5>
+                    ZADATAK 4: Stranica prima 4 GET parametara (a, b, c, d) i ispisuje
                     umnožak zbroja prvi i drugi te treći u četvrti
                 </h5>
             </div>

@@ -17,21 +17,23 @@
         <div class="callout">
             <div class="gornji-tekst">
                 <h5>
-                    ZADATAK 1: U okvirima trenutnog prijeloma
-                    stranice (isti dizajn kao i ostale stranice) ispišite
-                    HELLO WORLD!
+                    Server kaže:
                 </h5>
             </div>
         </div>
         <div class="callout" id="izlaz">
-            <?php echo 'HELLO WORLD!'; ?>
+            <?php
+            foreach ($_SERVER as $kljuc => $vrijednost) {
+                echo '<strong>', $kljuc, '</strong>', ' = ', $vrijednost, '<br />';
+            }
+            ?>
         </div>
     </main>
     <!-- END tijelo -->
 
     <!-- START podnožje -->
     <footer>
-        <?php require_once 'podnozje.php'; ?>
+        <!-- FOOTER -->
     </footer>
     <!-- END podnožje -->
 

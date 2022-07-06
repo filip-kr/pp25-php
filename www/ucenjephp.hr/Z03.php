@@ -16,7 +16,8 @@
     <main>
         <div class="callout">
             <div class="gornji-tekst">
-                <h5>ZADATAK 3: Stranica prima 4 parametara
+                <h5>
+                    ZADATAK 3: Stranica prima 4 parametara
                     i ispisuje ih jedno pored drugog
                     svaki u svom panelu (callout) na large širini
                     (p1, p2, p3, p4)

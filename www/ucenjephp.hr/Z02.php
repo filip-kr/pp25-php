@@ -16,7 +16,8 @@
     <main>
         <div class="callout">
             <div class="gornji-tekst">
-                <h5>ZADATAK 2: Stranica ispisuje
+                <h5>
+                    ZADATAK 2: Stranica ispisuje
                     Shaquille O'Neal
                     koristeći echo funkciju s jednostrukim navodnicima
                 </h5>

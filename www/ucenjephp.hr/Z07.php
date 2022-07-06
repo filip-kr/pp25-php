@@ -17,25 +17,17 @@
         <div class="callout">
             <div class="gornji-tekst">
                 <h5>
-                    ZADATAK 6: Stranica prima cijeli broj (i).
-                    Ako je broj paran boja okvira treba biti zelena,
-                    inače treba biti crvena.
+                    ZADATAK 7: Svi parni brojevi od 1 do 21, Vama na usluzi.
                 </h5>
             </div>
         </div>
         <div class="callout" id="izlaz">
-
             <?php
-            $i = $_GET['i'];
-
-            if (isset($_GET['i'])) {
-                if ($i % 2 === 0) {
-                    echo '<div style=\'background-color: green;\'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, qui.</div>';
-                } else if ($i % 2 === 1) {
-                    echo '<div style=\'background-color: red;\'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, qui.</div>';
+            for ($i = 0; $i < 21; $i++) {
+                if ($i % 2 === 0 && $i !== 0) {
+                    echo $i, ' ';
                 }
-            } else echo '<b>Unesi parametar!</b>';
-
+            }
             ?>
         </div>
     </main>

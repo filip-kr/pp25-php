@@ -16,39 +16,47 @@
     <main>
         <div class="callout">
             <div class="gornji-tekst">
-                <h5>Program će dva unesena broja zbrojiti,
+                <h5>
+                    Program će dva unesena broja zbrojiti,
                     pomnožiti s 100, te uvećati za 10
                 </h5>
             </div>
         </div>
         <div class="callout" id="izlaz">
-            <?php
-            $x = isset($_GET['x']) ? $_GET['x'] : 0;
-            $y = isset($_GET['y']) ? $_GET['y'] : 0;
-            ?>
+            <div class="grid-container fluid">
+                <div class="grid-x grid-margin-x">
+                    <div class="cell small-4">
 
-            <form action="" method="get">
-                <label>
-                    x
-                    <input type="text" name="x" value="<?= $x ?>">
-                </label>
+                        <?php
+                        $x = isset($_GET['x']) ? $_GET['x'] : 0;
+                        $y = isset($_GET['y']) ? $_GET['y'] : 0;
+                        ?>
 
-                <label>
-                    y
-                    <input type="text" name="y" value="<?= $y ?>">
-                </label>
+                        <form action="" method="get">
+                            <label>
+                                x
+                                <input type="text" name="x" value="<?= $x ?>">
+                            </label>
 
-                <input type="submit" class="success button" value="Izračunaj"><br>
+                            <label>
+                                y
+                                <input type="text" name="y" value="<?= $y ?>">
+                            </label>
 
-                <?php
+                            <input type="submit" class="success button" value="Izračunaj"><br>
 
-                $rez = $x + $y;
-                $rez *= 100;
-                $rez = $rez + 10;
-                echo '<b>Rezultat:</b> ', $rez;
+                            <?php
 
-                ?>
-            </form>
+                            $rez = $x + $y;
+                            $rez *= 100;
+                            $rez = $rez + 10;
+                            echo '<b>Rezultat:</b> ', $rez;
+
+                            ?>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <!-- END tijelo -->

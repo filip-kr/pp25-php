@@ -16,9 +16,7 @@
     <main>
         <div class="callout">
             <div class="gornji-tekst">
-                <h5>
-                    Kamen, Škare, Papir?
-                </h5>
+                <h5>Kamen, Škare, Papir?</h5>
             </div>
         </div>
         <div class="callout" id="izlaz">

@@ -21,6 +21,13 @@
     </div>
     <div class="callout" id="izlaz">
       Poslužite se izbornikom na vrhu i pogledajte kako marljivo vježbam PHP.
+      <br>
+      <br>
+      <b>Osnove PHP-a</b>: ponavljanje s predavanja
+      <br>
+      <b>Zadaci</b>: zadaci s predavanja
+      <br>
+      <b>Zadaće</b>: zadaće i poneka vlastita vježba
     </div>
   </main>
   <!-- END tijelo -->
