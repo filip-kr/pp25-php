@@ -32,6 +32,7 @@
                     <li><a target="_blank" href="Z09.php">Tablica X</a></li>
                     <li><a target="_blank" href="Z10.php">Što kaže server?</a></li>
                     <li><a target="_blank" href="Z11.php">Najveći od x brojeva </a></li>
+                    <li><a target="_blank" href="Z12.php">Upis i ispis </a></li>
                     <!-- <li><a target="_blank" href="ciklicnaTablica.php">Ciklična tablica</a></li> -->
                 </ul>
             </li>
