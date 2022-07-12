@@ -17,7 +17,10 @@
         <div class="callout">
             <div class="gornji-tekst">
                 <h5>
-                    TEST
+                    ZADATAK 12: Složiti formu koja ima jedno unosno polje teksta
+                    i jednu listu stavaka: Naslov 1, Naslov 2, Naslov 3.
+                    Kada korisnik postavi vrijednosti ispisuje se
+                    uneseni tekst s pripadajućom h oznakom.
                 </h5>
             </div>
         </div>
