@@ -11,6 +11,7 @@
                     <li><a target="_blank" href="../osnovephp/nizovi.php">Nizovi</a></li>
                     <li><a target="_blank" href="../osnovephp/uvjetnoGrananjeIf.php">IF</a></li>
                     <li><a target="_blank" href="../osnovephp/uvjetnoGrananjeSwitch.php">SWITCH</a></li>
+                    <li><a target="_blank" href="../osnovephp/funkcije.php">Funkcije</a></li>
                     <li>
                         <a href="#">Petlje</a>
                         <ul class="menu vertical">
@@ -37,6 +38,8 @@
                 <li><a target="_blank" href="../zadaci/Z10.php">Što kaže server?</a></li>
                 <li><a target="_blank" href="../zadaci/Z11.php">Najveći od x brojeva </a></li>
                 <li><a target="_blank" href="../zadaci/Z12.php">Upis i ispis </a></li>
+                <li><a target="_blank" href="../zadaci/Z13.php">Funkcija: od 2 do 85</a></li>
+                <li><a target="_blank" href="../zadaci/Z14.php">Funkcija: zbroj niza</a></li>
                 <li>
                     <a href="#">SUB 09.7.22.</a>
                     <ul class="menu vertical">
