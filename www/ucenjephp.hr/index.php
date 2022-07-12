@@ -27,7 +27,7 @@
       <br>
       <b>Zadaci</b>: zadaci s predavanja
       <br>
-      <b>Zadaće</b>: zadaće i poneka vlastita vježba
+      <b>Zadaće</b>: zadaće i vlastite vježbe
     </div>
   </main>
   <!-- END tijelo -->

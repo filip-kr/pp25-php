@@ -2,13 +2,13 @@
 <html class="no-js" lang="en" dir="ltr">
 
 <head>
-    <?php require_once 'head.php'; ?>
+    <?php require_once '../head.php'; ?>
 </head>
 
 <body>
     <!-- START zagljavlje -->
     <header>
-        <?php require_once 'zaglavlje.php'; ?>
+        <?php require_once '../zaglavlje.php'; ?>
     </header>
     <!-- END zaglavlje -->
 
@@ -53,7 +53,7 @@
 
 
     <!-- JavaScript -->
-    <?php require_once 'js.php'; ?>
+    <?php require_once '../js.php'; ?>
 </body>
 
 </html>

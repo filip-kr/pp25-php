@@ -2,13 +2,13 @@
 <html class="no-js" lang="en" dir="ltr">
 
 <head>
-    <?php require_once 'head.php'; ?>
+    <?php require_once '../head.php'; ?>
 </head>
 
 <body>
     <!-- START zagljavlje -->
     <header>
-        <?php require_once 'zaglavlje.php'; ?>
+        <?php require_once '../zaglavlje.php'; ?>
     </header>
     <!-- END zaglavlje -->
 
@@ -95,13 +95,13 @@
 
     <!-- START podnožje -->
     <footer>
-        <?php require_once 'podnozje.php'; ?>
+        <?php require_once '../podnozje.php'; ?>
     </footer>
     <!-- END podnožje -->
 
 
     <!-- JavaScript -->
-    <?php require_once 'js.php'; ?>
+    <?php require_once '../js.php'; ?>
 </body>
 
 </html>
