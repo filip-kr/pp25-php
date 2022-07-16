@@ -62,7 +62,7 @@
                 <li><a target="_blank" href="../zadace/poligon.php">Poligon</a></li>
                 <li><a target="_blank" href="../zadace/kamenSkarePapir.php">Kamen, škare, papir</a></li>
                 <li><a target="_blank" href="../zadace/tablicaMnozenja.php">Tablica množenja</a></li>
-                <!-- <li><a target="_blank" href="zadace/ciklicnaTablica/ciklicnaTablica.php">Ciklična tablica</a></li> -->
+                <li><a target="_blank" href="../zadace/ciklicnaTablica.php">Ciklična tablica</a></li>
             </ul>
         </li>
         </ul>
