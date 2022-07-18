@@ -1,8 +1,8 @@
 <?php
 
-$ime1 = 'Filip';
+$ime1 = 'Marta';
 $ime1Duzina = strlen($ime1);
-$ime2 = 'Tea';
+$ime2 = 'Manuel';
 $ime2Duzina = strlen($ime2);
 
 $imena = $ime1 . $ime2;
@@ -54,16 +54,15 @@ for ($i = 0; $i < count($imena); $i++) {
 
 function ljubavniKalkulator($niz)
 {
-    if (count($niz) < 3 && array_sum($niz) <= 100) {
+    if (count($niz) < 3) {
         foreach ($niz as $vrijednost) {
-            echo $vrijednost;
+            echo $vrijednost, ',';
         }
         return;
     }
 
     for ($i = 0; $i <= count($niz) / 2 - 1; $i++) {
-        $niz[$i] = $niz[$i] + $niz[count($niz) - 1];
-        array_pop($niz);
+        $niz[$i] = $niz[$i] + $niz[count($niz) - 1]; // Dvoznamenkasti brojevi?
     }
 
     ljubavniKalkulator($niz);
