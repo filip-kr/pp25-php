@@ -49,3 +49,64 @@ print_r(($ime1Niz));
 print_r(($ime2Niz));
 // print_r(($ponovljenaSlova));
 
+
+// // //
+
+// echo '<pre />';
+// print_r($ponovljenaSlova);
+
+// for ($i = 0; $i <= count($ponovljenaSlova) / 2 - 1; $i++) {
+//     if ($i == $ime1Duzina || $i == $ime2Duzina) {
+//         break;
+//     }
+
+//     $ponovljenaSlova[$i] = $ponovljenaSlova[$i] + $ponovljenaSlova[count($ponovljenaSlova) - 1];
+//     array_pop($ponovljenaSlova);
+
+// }
+
+// for ($i = 0; $i <= count($ponovljenaSlova) / 2 - 1; $i++) {
+//     if ($i == $ime1Duzina || $i == $ime2Duzina) {
+//         break;
+//     }
+
+//     $ponovljenaSlova[$i] = $ponovljenaSlova[$i] + $ponovljenaSlova[count($ponovljenaSlova) - 1];
+//     array_pop($ponovljenaSlova);
+
+// }
+
+// for ($i = 0; $i <= count($ponovljenaSlova) / 2 - 1; $i++) {
+//     if ($i == $ime1Duzina || $i == $ime2Duzina) {
+//         break;
+//     }
+
+//     $ponovljenaSlova[$i] = $ponovljenaSlova[$i] + $ponovljenaSlova[count($ponovljenaSlova) - 1]; // S ovime dobivam četvrti krug - 55
+//     array_pop($ponovljenaSlova);
+
+// }
+
+
+// // //
+
+// function ljubavniKalkulator($niz, $i)
+// {
+//     if (count($niz) >= 2) {
+//         foreach ($niz as $vrijednost) {
+//             echo $vrijednost, ',';
+//         }
+//         return;
+//     }
+
+//     $niz[$i] = $niz[$i] + $niz[count($niz) - 1];
+
+//     if ($niz[$i] >= 10) {
+//         $niz[$i] = $niz[$i] - 10;
+//         array_unshift($niz, 1);
+//     }
+
+//     array_pop($niz);
+
+//     $i++;
+
+//     ljubavniKalkulator($niz, $i);
+// }

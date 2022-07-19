@@ -1,9 +1,7 @@
 <?php
 
 $ime1 = 'Marta';
-$ime1Duzina = strlen($ime1);
 $ime2 = 'Manuel';
-$ime2Duzina = strlen($ime2);
 
 $imena = $ime1 . $ime2;
 $imena = strtolower($imena);
@@ -19,56 +17,53 @@ for ($i = 0; $i < count($imena); $i++) {
     }
 }
 
-// echo '<pre />';
-// print_r($ponovljenaSlova);
-
-// for ($i = 0; $i <= count($ponovljenaSlova) / 2 - 1; $i++) {
-//     if ($i == $ime1Duzina || $i == $ime2Duzina) {
-//         break;
-//     }
-
-//     $ponovljenaSlova[$i] = $ponovljenaSlova[$i] + $ponovljenaSlova[count($ponovljenaSlova) - 1];
-//     array_pop($ponovljenaSlova);
-
-// }
-
-// for ($i = 0; $i <= count($ponovljenaSlova) / 2 - 1; $i++) {
-//     if ($i == $ime1Duzina || $i == $ime2Duzina) {
-//         break;
-//     }
-
-//     $ponovljenaSlova[$i] = $ponovljenaSlova[$i] + $ponovljenaSlova[count($ponovljenaSlova) - 1];
-//     array_pop($ponovljenaSlova);
-
-// }
-
-// for ($i = 0; $i <= count($ponovljenaSlova) / 2 - 1; $i++) {
-//     if ($i == $ime1Duzina || $i == $ime2Duzina) {
-//         break;
-//     }
-
-//     $ponovljenaSlova[$i] = $ponovljenaSlova[$i] + $ponovljenaSlova[count($ponovljenaSlova) - 1]; // S ovime dobivam četvrti krug - 55
-//     array_pop($ponovljenaSlova);
-
-// }
-
 function ljubavniKalkulator($niz)
 {
-    if (count($niz) < 3) {
+    if (count($niz) == 3) {
         foreach ($niz as $vrijednost) {
             echo $vrijednost, ',';
         }
         return;
     }
 
-    for ($i = 0; $i <= count($niz) / 2 - 1; $i++) {
-        $niz[$i] = $niz[$i] + $niz[count($niz) - 1]; // Dvoznamenkasti brojevi?
+    for ($i = 0; $i <= count($niz) / 2; $i++) {         // Dokle zbrajati?
+        $niz[$i] = $niz[$i] + $niz[count($niz) - 1];
+
+        if ($niz[$i] >= 10) {
+            $niz[$i] = $niz[$i] - 10;
+            array_unshift($niz, 1);
+        }
+
+
+        array_pop($niz);
     }
 
     ljubavniKalkulator($niz);
 }
 
+
+
 ljubavniKalkulator($ponovljenaSlova);
 
-// echo '<pre />';
-// print_r($ponovljenaSlova);
+// if (strlen($ime1) > strlen($ime2)) {
+//     $imeDuzina = strlen($ime1);
+// } else {
+//     $imeDuzina = strlen($ime2);
+// }
+
+
+
+// if ($kraceIme > 0) {
+//     for ($i = 0; $i <= $kraceIme; $i++) {
+//         $niz[$i] = $niz[$i] + $niz[count($niz) - 1];
+
+//         if ($niz[$i] >= 10) {
+//             $niz[$i] = $niz[$i] - 10;
+//             array_unshift($niz, 1);
+//         }
+
+
+//         array_pop($niz);
+//         $kraceIme = 0;
+//     }
+// }
