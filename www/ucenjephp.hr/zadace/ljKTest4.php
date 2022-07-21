@@ -1,7 +1,7 @@
 <?php
 
-$ime1 = 'Marinela';
-$ime2 = 'Tomislav';
+$ime1 = 'Marija';
+$ime2 = 'Ivan';
 
 $imena = $ime1 . $ime2;
 $imena = strtolower($imena);
@@ -38,21 +38,9 @@ for ($i = 0; $i < count($ponovljenaSlova) - 1; $i++) {
     array_pop($ponovljenaSlova);
 }
 
-for ($i = 0; $i < count($ponovljenaSlova) - 1; $i++) {
-    if (count($ponovljenaSlova) == 2) {
-        break;
-    }
-
-    $ponovljenaSlova[$i] = $ponovljenaSlova[$i] + $ponovljenaSlova[count($ponovljenaSlova) - 1];
-
-    if ($ponovljenaSlova[$i] >= 10) {
-        $ponovljenaSlova[$i] = $ponovljenaSlova[$i] - 10;
-        array_unshift($ponovljenaSlova, 1);
-    }
-
-    array_pop($ponovljenaSlova);
-}
+$pSlovaString = implode($ponovljenaSlova);
+$pSlovaString = str_split($pSlovaString);
 
 echo '<pre />';
 print_r($ponovljenaSlova);
-
+print_r(($pSlovaString));

@@ -1,7 +1,7 @@
 <?php
 
-$ime1 = 'Marta';
-$ime2 = 'Manuel';
+$ime1 = 'Igor';
+$ime2 = 'Katarina';
 
 $imena = $ime1 . $ime2;
 $imena = strtolower($imena);
@@ -17,36 +17,35 @@ for ($i = 0; $i < count($imena); $i++) {
     }
 }
 
-function ljubavniKalkulator($niz, $i)
+function ljubavniKalkulator($niz)
 {
-    if (count($niz) == 2 || array_sum($niz) == 1) {
-        foreach ($niz as $vrijednost) {
-            echo $vrijednost, ',';
-        }
+    if (count($niz) == 2 && array_sum($niz) < 20 || array_sum($niz) == 1) {
+        $nizString = implode($niz);
+        echo $nizString;
         return;
     }
 
-    $niz[$i] = $niz[$i] + $niz[count($niz) - 1];
+    $nizString = implode($niz);
+    $niz = str_split($nizString);
 
-    if ($niz[$i] >= 10) {
-        $niz[$i] = $niz[$i] - 10;
-    
-        $ostatak = array_slice($niz, $i + 1);
-        // print_r($ostatak);
-        // return;
-    
-        $niz[] = 1;
-        // array_merge($niz, $ostatak);
+    for ($i = 0; $i < count($niz) - 1; $i++) {
+
+        $niz[$i] = $niz[$i] + $niz[count($niz) - 1];
+
+        array_pop($niz);
     }
-
-    array_pop($niz);
 
     ljubavniKalkulator($niz, $i);
 }
 
 
 
-ljubavniKalkulator($ponovljenaSlova, 0);
+ljubavniKalkulator($ponovljenaSlova);
+
+
+
+
+
 
 // if (strlen($ime1) > strlen($ime2)) {
 //     $imeDuzina = strlen($ime1);
@@ -60,14 +59,13 @@ ljubavniKalkulator($ponovljenaSlova, 0);
 //     for ($i = 0; $i <= $kraceIme; $i++) {
 //         $niz[$i] = $niz[$i] + $niz[count($niz) - 1];
 
-//         if ($niz[$i] >= 10) {
-//             $niz[$i] = $niz[$i] - 10;
-//             array_unshift($niz, 1);
-//         }
+        // if ($niz[$i] >= 10) {
+        //     $niz[$i] = $niz[$i] - 10;
+        //     array_unshift($niz, 1);
+        // }
 
 
 //         array_pop($niz);
 //         $kraceIme = 0;
 //     }
 // }
-
