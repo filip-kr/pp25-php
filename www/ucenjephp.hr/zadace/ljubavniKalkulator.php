@@ -42,7 +42,7 @@
                             </label>
                         </form>
                     </div>
-                    <div class="cell small-4">
+                    <div class="cell small-4 ljubavniKalkulatorRezultat">
                         <?php require_once 'ljubavniKalkulatorRequire.php' ?>
                     </div>
                 </div>
